@@ -9,12 +9,16 @@
     },
     "main": "./bones.js",
     "dependencies": {
-        "backbone": "0.5.3",
-        "express": "~2.5.4",
+        "backbone": "^1.3.3",
+        "express": "^4.16.3",
         "jquery": "^3.3.1",
-        "mirror": "0.3.x",
-        "optimist": "0.3.x",
-        "underscore": "~1.3.3"
+        "mirror": "^0.3.3",
+        "optimist": "^0.6.1",
+        "underscore": "^1.9.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/richet/bones.git"
     },
     "scripts": {
         "test": "mocha -R spec",
